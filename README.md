@@ -7,6 +7,7 @@
   - [DDD (Domain Driven Design)](#ddd-domain-driven-design)
   - [BDD (Behavior Driven Development)](#bdd-behavior-driven-development)
   - [Architecture Logiciel](#architecture-logiciel)
+  - [Microservices](#microservices)
   - [Développement](#développement)
     - [Principes](#principes)
     - [Clean Code](#clean-code)
@@ -21,6 +22,7 @@
 ## Agilité & Scrum
 
 - [La minute Agile](https://www.youtube.com/c/LaMinuteAgile/playlists)
+- [De Toyota à Kanban, les racines japonaises de l’agilité](https://www.languagesandnumbers.com/articles/fr/racines-japonaises-agilite/)
 
 ## Le Craftsmanship
 
@@ -50,6 +52,7 @@
 - https://www.arolla.fr/blog/2012/06/bdd-c-est-quoi-donc/
 - https://openclassrooms.com/fr/courses/3504461-testez-linterface-de-votre-site/4270566-apprenez-le-behavior-driven-development-bdd
 - [BDD (Behavior Driven Development) - La Minute Agile Scrum #81](https://youtu.be/1RBM27a-8ic)
+- [Les 3 amigos - test agile - La Minute Agile Scrum 116](https://www.youtube.com/watch?v=nzLVUksUFbA&t=22s)
 
 ## Architecture Logiciel
 
@@ -61,6 +64,11 @@
   - https://github.com/manakuro/golang-clean-architecture
 - Clean archi en Python:
   - https://www.thedigitalcatbooks.com/pycabook-introduction/
+
+## Microservices
+
+- https://docs.microsoft.com/fr-fr/azure/architecture/guide/architecture-styles/microservices
+- [Event Driven Microservices](https://www.youtube.com/watch?v=D-Hw_CopGDs&list=PLzERW_Obpmv81N-F8yBowb_QHvf9ISG7y)
 
 ## Développement
 
@@ -101,10 +109,10 @@
 - https://github.com/faif/python-patterns
 - https://python-patterns.guide/
 
-
 ## Stratégies pour le legacy
 
 - [Le projet Legacy, quelles stratégies pour s'en sortir ?](https://www.youtube.com/watch?v=ga4KLiECl9w)
+- [GETTING STARTED WITH DDD WHEN SURROUNDED BY LEGACY SYSTEMS (PDF)](https://www.domainlanguage.com/wp-content/uploads/2016/04/GettingStartedWithDDDWhenSurroundedByLegacySystemsV1.pdf)
 - ACL (Anti Corruption Layer)
   - https://docs.microsoft.com/fr-fr/azure/architecture/patterns/anti-corruption-layer
   - https://dev.to/asarnaout/the-anti-corruption-layer-pattern-pcd
