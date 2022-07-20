@@ -21,7 +21,9 @@
 
 ## Agilité & Scrum
 
-- [La minute Agile](https://www.youtube.com/c/LaMinuteAgile/playlists)
+- [Chaine Youtube: La minute Agile](https://www.youtube.com/c/LaMinuteAgile/playlists)
+- [Chaine Youtube: Scrum Life](https://www.youtube.com/c/ScrumLife/playlists)
+- [Scrum Guide officiel](https://scrumguides.org/download.html)
 - [De Toyota à Kanban, les racines japonaises de l’agilité](https://www.languagesandnumbers.com/articles/fr/racines-japonaises-agilite/)
 
 ## Le Craftsmanship
