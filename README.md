@@ -1,24 +1,5 @@
 # Awesome Development
 
-- [Awesome Development](#awesome-development)
-  - [Agilité & Scrum](#agilité--scrum)
-  - [Le Craftsmanship](#le-craftsmanship)
-  - [XP (eXtreme Programming)](#xp-extreme-programming)
-  - [DDD (Domain Driven Design)](#ddd-domain-driven-design)
-  - [BDD (Behavior Driven Development)](#bdd-behavior-driven-development)
-  - [Architecture Logiciel](#architecture-logiciel)
-  - [Microservices](#microservices)
-  - [Développement](#développement)
-    - [Principes](#principes)
-    - [Clean Code](#clean-code)
-    - [TDD (Test Driven Development)](#tdd-test-driven-development)
-    - [Katas](#katas)
-    - [Designs Patterns](#designs-patterns)
-  - [Stratégies pour le legacy](#stratégies-pour-le-legacy)
-  - [Livres](#livres)
-  - [Blogs](#blogs)
-  - [Communautés](#communautés)
-
 ## Agilité & Scrum
 
 - [Chaine Youtube: La minute Agile](https://www.youtube.com/c/LaMinuteAgile/playlists)
@@ -46,8 +27,31 @@
 - https://martinfowler.com/tags/domain%20driven%20design.html
 - https://www.cosmicpython.com/book/introduction.html
 - [Domain Driven Design Patterns in Python](https://youtu.be/hv-LiKQgN90)
+- https://techblog.deepki.com/domain-driven-design/
+- https://lesdieuxducode.com/blog/2019/7/introduction-au-domain-driven-design
 - Entity vs Value Object
-  - https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/
+    - https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/
+- CQRS
+    - https://github.com/arshadansari27/simple-analytics-engine
+    - https://blog.hikmahtechnologies.com/pythons-example-of-cleaner-architecture-series-1-a78f96744f15
+- Event Sourcing:
+	- https://github.com/arshadansari27/simple-analytics-engine
+
+## UML
+
+### C4 Model
+
+- https://fr.wikipedia.org/wiki/Mod%C3%A9lisation_C4
+- https://c4model.com/
+- https://www.alexandrevandekerkhove.fr/2020/02/10/c4model-pour-les-diags-darchi.html
+- https://www.infoq.com/fr/articles/documenter-architecture-c4-model/
+- https://medium.com/software-architecture-foundations/software-architecture-modeling-with-c4-model-e9e61d952121
+- https://github.com/plantuml-stdlib/C4-PlantUML
+- https://www.gliffy.com/blog/c4-model
+
+### Outils
+
+- https://plantuml.com/fr/
 
 ## BDD (Behavior Driven Development)
 
@@ -55,17 +59,31 @@
 - https://openclassrooms.com/fr/courses/3504461-testez-linterface-de-votre-site/4270566-apprenez-le-behavior-driven-development-bdd
 - [BDD (Behavior Driven Development) - La Minute Agile Scrum #81](https://youtu.be/1RBM27a-8ic)
 - [Les 3 amigos - test agile - La Minute Agile Scrum 116](https://www.youtube.com/watch?v=nzLVUksUFbA&t=22s)
+- https://www.all4test.fr/blog-du-testeur/comment-automatiser-les-cas-de-test-avec-selenium-et-behave-en-utilisant-python/
+- Outils
+	- https://github.com/behave/behave
+	- https://cucumber.io
+- BDD Golang
+    - https://levelup.gitconnected.com/implementation-of-behavioral-driven-development-bdd-using-golang-d33073243722
+    - https://testcafe.io/documentation/402635/getting-started#creating-a-test
+    - https://medium.com/lensesio/declarative-bdd-with-golang-3f5f6a1ac5a8
 
 ## Architecture Logiciel
 
 - https://www.kaherecode.com/tutorial/comprendre-la-clean-architecture
 - https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/
 - https://fr.wikipedia.org/wiki/Architecture_hexagonale_(logiciel)
-- Clean archi en Golang:
-  - https://manakuro.medium.com/clean-architecture-with-go-bce409427d31
-  - https://github.com/manakuro/golang-clean-architecture
-- Clean archi en Python:
-  - https://www.thedigitalcatbooks.com/pycabook-introduction/
+- Clean archi en Golang
+    - https://manakuro.medium.com/clean-architecture-with-go-bce409427d31
+    - https://github.com/manakuro/golang-clean-architecture
+    - https://github.com/manakuro/golang-clean-architecture
+- Clean archi en Python
+    - https://www.thedigitalcatbooks.com/pycabook-introduction/
+    - https://www.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/
+    - https://prog.world/clean-architecture-through-the-eyes-of-a-python-developer/
+    - https://breadcrumbscollector.tech/python-the-clean-architecture-in-2021/
+    - https://github.com/Enforcer/clean-architecture/tree/master/auctioning_platform
+    - https://breadcrumbscollector.tech/the-clean-architecture-in-python-how-to-write-testable-and-flexible-code/
 
 ## Microservices
 
@@ -77,23 +95,41 @@
 ### Principes
 
 - [SOLID](https://fr.wikipedia.org/wiki/SOLID_(informatique))
-  - http://blogs.developpeur.org/fathi/archive/2011/11/26/pr-sentation-des-principes-solid.aspx
+    - http://blogs.developpeur.org/fathi/archive/2011/11/26/pr-sentation-des-principes-solid.aspx
+    - https://itexpert.fr/blog/resume-application-solid/
+		- https://itexpert.fr/blog/principe-responsabilite-unique/
+		- https://itexpert.fr/blog/principe-ouvert-ferme/
+		- https://itexpert.fr/blog/principe-substitution-liskov/
+		- https://itexpert.fr/blog/principe-segregation-interfaces/	
+		- https://itexpert.fr/blog/principe-inversion-dependances/
 - [DRY](https://fr.wikipedia.org/wiki/Ne_vous_r%C3%A9p%C3%A9tez_pas)
   - https://medium.com/@nicolopigna/this-is-not-the-dry-you-are-looking-for-a316ed3f445f
 - [YAGNI](https://fr.wikipedia.org/wiki/YAGNI)
 - [KISS](https://fr.wikipedia.org/wiki/Principe_KISS)
+
+### POO
+
+- https://itexpert.fr/blog/concepts-fondamentaux-poo/
+
 
 ### Clean Code
 
 - [Clean Code - Uncle Bob / All Lessons](https://www.youtube.com/watch?v=7EmboKQH8lM&list=PLmmYSbUCWJ4x1GO839azG_BBw8rkh-zOj)
 - [Théorie de la vitre brisée](https://fr.wikipedia.org/wiki/Hypoth%C3%A8se_de_la_vitre_bris%C3%A9e#:~:text=La%20th%C3%A9orie%20de%20la%20vitre%20bris%C3%A9e%20d%C3%A9montre%20que%20ce%20n,au%20passage%20%C3%A0%20l)
 - [Règle du boy scout](https://zuk-thomas.medium.com/la-scout-rule-une-bonne-pratique-de-d%C3%A9veloppement-6fa63115c118)
+- https://techblog.deepki.com/being-a-professional-dev/
+- https://techblog.deepki.com/the-clean-coder-part-2/
 
 ### TDD (Test Driven Development)
 
 - https://openclassrooms.com/fr/courses/3504461-testez-linterface-de-votre-site/4270571-apprenez-le-test-driven-development-tdd
 - [Comment faire du TDD ?](https://www.youtube.com/watch?v=wbZ6jWmRY14)
 - [Plusieurs manières de faire du TDD](https://youtu.be/R_X2RhexsMs)
+- https://www.thedigitalcatonline.com/blog/2020/09/10/tdd-in-python-with-pytest-part-1/
+
+### Testing
+
+- https://ghostinspector.com/landing/web-application-testing
 
 ### Katas
 
@@ -110,6 +146,11 @@
 - https://refactoring.guru/fr/design-patterns
 - https://github.com/faif/python-patterns
 - https://python-patterns.guide/
+- https://techblog.deepki.com/some-python-design-patterns/
+
+### Python avancé
+
+- [Lists in Python - Advanced Python 01 - Programming Tutoria](https://www.youtube.com/watch?v=QLTdOEn79Rc&list=PLqnslRFeH2UqLwzS0AwKDKLrpYBKzLBy2)
 
 ## Stratégies pour le legacy
 
@@ -136,3 +177,7 @@
 
 - https://www.meetup.com/fr-FR/paris-software-craftsmanship/
 - https://www.meetup.com/fr-FR/online-software-craftsmanship-community/
+
+## Organisation / Gestion d'équipe / Gestion de projet
+
+- https://techblog.deepki.com/dris
