@@ -53,16 +53,18 @@
 ## DDD (Domain Driven Design)
 
 - https://en.wikipedia.org/wiki/Domain-driven_design
-- [Démystifions le Domain Driven Design](https://youtu.be/O2X7fH043gk)
-- https://docs.microsoft.com/fr-fr/azure/architecture/microservices/model/tactical-ddd
+- [Démystifions le Domain Driven Design - Maxime Sanglan-Charlier](https://www.youtube.com/watch?v=O2X7fH043gk)
+- [Maxime Sanglan Charlier - Le Domain Driven Design, comment bien démarrer ?](https://www.youtube.com/watch?v=mq7Y4mH1Wns)
 - https://martinfowler.com/tags/domain%20driven%20design.html
 - https://www.cosmicpython.com/book/introduction.html
 - [Domain Driven Design Patterns in Python](https://youtu.be/hv-LiKQgN90)
+- https://blog.engineering.publicissapient.fr/2017/06/19/retour-sur-lapres-midi-du-domain-driven-design/
 - https://techblog.deepki.com/domain-driven-design/
 - https://lesdieuxducode.com/blog/2019/7/introduction-au-domain-driven-design
 - https://www.youtube.com/c/DomainDrivenDesignFrance
 - [DDD, en vrai pour le développeur](https://www.youtube.com/watch?v=h3DLKrvp5V8)
 - [DDD: et si on reprenait l'histoire par le bon bout ?](https://www.youtube.com/watch?v=o3thkx3EuiA)
+- [Apprendre le DDD et l’architecture hexagonale - Xavier Blanc](https://www.youtube.com/watch?v=Cx9qMzkHD40)
 - L’après-midi du DDD:
   - [1/3 – Keynote & Test Harness](https://www.youtube.com/watch?v=qzygjKpFSq4&list=PLGl1Jc8ErU1xmSImIQ27Biu46C4MQHTfK)
   - [2/3 – DDD all the way](https://www.youtube.com/watch?v=dEin1bAVAd4&list=PLGl1Jc8ErU1xmSImIQ27Biu46C4MQHTfK&index=3)
@@ -74,10 +76,44 @@
     - https://enterprisecraftsmanship.com/posts/representing-collection-as-value-object/
     - https://vaadin.com/blog/ddd-part-2-tactical-domain-driven-design
 - CQRS
+    - [CQRS EventSourcing par la pratique (Clément Heliou)](https://www.youtube.com/watch?v=zxa4y6eJj_g&t=1586s)
+    - [Présentation de CQRS et Event Sourcing par Yoann Gotthilf](https://www.youtube.com/watch?v=DEhfISeR_go)
+    - [Les bombes à retardement de l'Event Sourcing / CQRS (Thomas Brouillet)](https://www.youtube.com/watch?v=tj80_nCDr18)
     - https://github.com/arshadansari27/simple-analytics-engine
     - https://blog.hikmahtechnologies.com/pythons-example-of-cleaner-architecture-series-1-a78f96744f15
 - Event Sourcing:
 	- https://github.com/arshadansari27/simple-analytics-engine
+    - [Présentation de CQRS et Event Sourcing par Yoann Gotthilf](https://www.youtube.com/watch?v=DEhfISeR_go)
+
+## Event Storming
+
+- https://cleandojo.com/2019/06/event-storming-modelisez-votre-domaine-metier-en-equipe/
+- https://www.eventstorming.com/
+- [Event Storming demo & discussion](https://www.youtube.com/watch?v=xIB_VQVVWKk)
+- [Event Storming - Alberto Brandolini - DDD Europe 2019](https://www.youtube.com/watch?v=mLXQIYEwK24)
+- [Event Storming : Modéliser son domaine métier](https://www.youtube.com/watch?v=0-ppfFuGB-I)
+- https://www.boldare.com/blog/event-storming-guide/
+
+### Impact Mapping
+
+- https://www.pentalog.fr/blog/developpement-technology/impact-mapping-une-technique-strategique-de-planification-et-de-visualisation-agile
+- https://medium.com/meilleursagents-engineering/conseils-pour-r%C3%A9ussir-son-atelier-dimpact-mapping-a8d648e3d0c
+- https://draft.io/fr/example/impact-mapping
+- https://coach-agile.com/2017/05/impact-mapping-atelier-agile/
+- https://www.gliffy.com/blog/common-flowchart-templates-flowcharting-examples-gliffy#impact-maps
+
+### Domain Story Telling
+
+- https://github.com/hofstef/awesome-domain-storytelling
+- https://domainstorytelling.org/
+- [Le storytelling au service du backlog : le User Story Mapping - Scrum Life 37](https://www.youtube.com/watch?v=dvnU_R0mu98)
+
+### User Story Mapping
+
+- https://blog.myagilepartner.fr/index.php/2017/07/29/story-mapping/
+- [User Story Mapping - La minute agile scrum 36](https://www.youtube.com/watch?v=2yPgR6OEo1s)
+- https://blog-gestion-de-projet.com/story-mapping/
+- https://www.visual-paradigm.com/guide/agile-software-development/what-is-user-story-mapping/
 
 ## UML
 
@@ -106,7 +142,7 @@
 
 - https://www.arolla.fr/blog/2012/06/bdd-c-est-quoi-donc/
 - https://openclassrooms.com/fr/courses/3504461-testez-linterface-de-votre-site/4270566-apprenez-le-behavior-driven-development-bdd
-- [BDD (Behavior Driven Development) - La Minute Agile Scrum #81](https://youtu.be/1RBM27a-8ic)
+- [BDD (Behavior Driven Development) - La Minute Agile Scrum #81](https://www.youtube.com/watch?v=1RBM27a-8ic)
 - [Les 3 amigos - test agile - La Minute Agile Scrum 116](https://www.youtube.com/watch?v=nzLVUksUFbA&t=22s)
 - https://www.all4test.fr/blog-du-testeur/comment-automatiser-les-cas-de-test-avec-selenium-et-behave-en-utilisant-python/
 - https://www.jbvigneron.fr/parlons-dev/bdd-ou-comment-mettre-tout-le-monde-d-accord/
@@ -121,13 +157,34 @@
     - https://testcafe.io/documentation/402635/getting-started#creating-a-test
     - https://medium.com/lensesio/declarative-bdd-with-golang-3f5f6a1ac5a8
 
+## Living Documentation
+
+- https://www.amazon.fr/Living-Documentation-Cyrille-Martraire/dp/0134689321
+- https://github.com/LivingDocumentation/awesome-living-documentation
+- https://www.synolia.com/synolab/outils/living-documentation-pourquoi-ou-et-comment/
+- [“Living documentation”. Quand notre définition produit, nos tests automatisés... - Samuel ROZÉ](https://www.youtube.com/watch?v=hjjuhiCwgf0)
+- http://rmpestano.github.io/cukedoctor/
+
 ## Architecture Logiciel
 
 - [Être architecte logiciel en 2018](https://www.youtube.com/watch?v=1igv2rHGKfo)
-- https://www.kaherecode.com/tutorial/comprendre-la-clean-architecture
+
+### Architecture Hexagonale
+
 - [Architecture hexagonale pour les nuls (Y. Chéné)](https://www.youtube.com/watch?v=Hi5aDfRe-aE)
+- https://blog.octo.com/architecture-hexagonale-trois-principes-et-un-exemple-dimplementation/
 - https://fr.wikipedia.org/wiki/Architecture_hexagonale_(logiciel)
+- https://blog.engineering.publicissapient.fr/2016/03/16/perennisez-votre-metier-avec-larchitecture-hexagonale/
+
+### Architecture en Oignon
+
 - [Onion Architecture](https://jeffreypalermo.com/2008/07/the-onion-architecture-part-1/)
+
+### Clean Architecture
+
+- https://www.kaherecode.com/tutorial/comprendre-la-clean-architecture
+- [Introduction à l’Architecture & la Clean Architecture](https://www.youtube.com/watch?v=JSmojHSeRSg)
+
 - Clean archi en Golang
     - https://manakuro.medium.com/clean-architecture-with-go-bce409427d31
     - https://github.com/manakuro/golang-clean-architecture
@@ -139,16 +196,19 @@
     - https://breadcrumbscollector.tech/python-the-clean-architecture-in-2021/
     - https://github.com/Enforcer/clean-architecture/tree/master/auctioning_platform
     - https://breadcrumbscollector.tech/the-clean-architecture-in-python-how-to-write-testable-and-flexible-code/
-- LMAX:
-  - https://martinfowler.com/articles/lmax.html
-  - http://igm.univ-mlv.fr/~dr/XPOSE2011/Lmax-Architecture/index.html
-  - http://igm.univ-mlv.fr/~dr/XPOSE2011/Lmax-Architecture/support.pdf
+- Clean archi en Typescript
+  - [La clean architecture dans le web](https://www.youtube.com/watch?v=OXrOnnK5ZRw)
+
+### LMAX
+
+- https://martinfowler.com/articles/lmax.html
+- http://igm.univ-mlv.fr/~dr/XPOSE2011/Lmax-Architecture/index.html
+- http://igm.univ-mlv.fr/~dr/XPOSE2011/Lmax-Architecture/support.pdf
 
 ## Microservices
 
 - [Microservices c'est pas automatique - Arnaud Lemaire](https://www.youtube.com/watch?v=_mqn0FfZ2SY&list=PLGl1Jc8ErU1xHm4tSJU8yBegsNtzslYGI)
 - [Un monolithe microservices ready (Arnaud LEMAIRE)](https://www.youtube.com/watch?v=F8C_iPGhHoI)
-- https://docs.microsoft.com/fr-fr/azure/architecture/guide/architecture-styles/microservices
 - [Event Driven Microservices](https://www.youtube.com/watch?v=D-Hw_CopGDs&list=PLzERW_Obpmv81N-F8yBowb_QHvf9ISG7y)
 - [Microservices Heuristiques - Cyrille Martraire](https://www.youtube.com/watch?v=MbB9PtME96Q&list=PLGl1Jc8ErU1xHm4tSJU8yBegsNtzslYGI&index=3)
 - https://docs.microsoft.com/fr-FR/azure/architecture/microservices/
@@ -156,6 +216,10 @@
 - [Problèmes rencontrés en microservice Configuration, authentification... (Quentin Adam)](https://www.youtube.com/watch?v=mvKeCsxGZhE)
 - [Ce que j'ai appris en construisant des systèmes distribués (Michaël Figuière)](https://www.youtube.com/watch?v=D8XRnzt5fsQ)
 - [Du Monolithe aux microservices chez leboncoin (Eric Lefevre-Ardant)](https://www.youtube.com/watch?v=yah6zzpQu3s)
+- https://docs.microsoft.com/fr-fr/azure/architecture/guide/architecture-styles/microservices
+- https://docs.microsoft.com/fr-fr/azure/architecture/microservices/model/tactical-ddd
+- https://docs.microsoft.com/fr-fr/dotnet/architecture/microservices/microservice-ddd-cqrs-patterns/ddd-oriented-microservice
+- [Microservices, DDD et bootstrapping pour faire un départ lancé (Laurent Guérin et Aurélien Brisard)](https://www.youtube.com/watch?v=CXaLEyckqu8)
 
 ## Développement
 
@@ -207,6 +271,8 @@
 - https://blog.ippon.fr/2021/04/12/mon-catalogue-de-katas/
 - https://github.com/gamontal/awesome-katas
 - [Katas de code](https://youtu.be/5L9wRp_65Uw)
+- https://github.com/emilybache
+- https://github.com/emilybache/KataTrainReservation
 
 ### Designs Patterns
 
@@ -215,6 +281,7 @@
 - https://python-patterns.guide/
 - https://techblog.deepki.com/some-python-design-patterns/
 - https://www.geeksforgeeks.org/software-design-patterns
+- https://deviq.com/design-patterns/design-patterns-overview
 
 ### Algorithmie
 
@@ -239,6 +306,16 @@
 - https://returns.readthedocs.io/en/latest/
 - https://toolz.readthedocs.io/en/latest/
 - https://github.com/vinta/awesome-python#functional-programming
+
+#### Librairies
+
+- Retrying
+  - https://github.com/jd/tenacity
+  - https://github.com/litl/backoff
+- API client
+  - https://www.python-httpx.org/
+- API Server
+  - https://fastapi.tiangolo.com/
 
 ## Stratégies pour le legacy
 
@@ -272,6 +349,7 @@
 
 ### OKR
 
+- https://www.welcometothejungle.com/fr/articles/methode-okr-objectives-results
 - https://www.wimi-teamwork.com/fr/blog/okr-vs-kpi-comment-faire-difference/
 - https://www.wrike.com/fr/blog/kpi-vs-okr-2-methodes-differentes-mais-inherentes-a-la-reussite/
 - https://wikiagile.cesi.fr/index.php?title=OKR_vs_KPI_:_faire_la_diff%C3%A9rence
